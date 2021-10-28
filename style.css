@@ -8,43 +8,44 @@ header{
     height: 100px;
     margin-bottom: 2%;
 }
-.main-top{
+.section-1{
     background-color: #e1d67a;
     /* Da rimuovere la height */
     height: 400px;
     margin-bottom: 2%;
 }
-.main-bot{
+.section-2{
     background-color: #0086ff;
 }
-.block-1{
+.box-1{
     background-color: #abcfe7;
     margin-bottom: 2%;
 }
-.header-div{
+.top-box{
     /* Da rimuovere la height */
     height: 60px;
 }
-.main-div::after{
+.conteiner-1::after{
     content: "";
     clear: both;
     display: table;
 }
-.float-left{
+.conteiner-1 div{
     float: left;
     /* Da rimuovere la height */
     height: 500px;
-    width: 20%;
-    margin: 0% 0.5% 2% 0.5%;
 }
-.float-middle{
+.lateral-box{
+    width: 20%;
+}
+.middle-box{
     width: 58%;
 }
-.main-div div:first-child{
-    margin-left: 0%;
+.margin-r{
+    margin-right: 0.5%;
 }
-.main-div div:last-child{
-    margin-right: 0%;
+.margin-l{
+    margin-left: 0.5%;
 }    
 footer{
     background-color: #8801fe;
