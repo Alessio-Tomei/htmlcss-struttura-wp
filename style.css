@@ -4,11 +4,51 @@ body > *{
 }
 header{
     background-color: #e579e6;
-    height: 80px;
+    /* Da rimuovere la height */
+    height: 100px;
     margin-bottom: 2%;
 }
 .main-top{
     background-color: #e1d67a;
-    height: 240px;
+    /* Da rimuovere la height */
+    height: 400px;
     margin-bottom: 2%;
+}
+.main-bot{
+    background-color: #0086ff;
+}
+.block-1{
+    background-color: #abcfe7;
+    margin-bottom: 2%;
+}
+.header-div{
+    /* Da rimuovere la height */
+    height: 60px;
+}
+.main-div::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.float-left{
+    float: left;
+    /* Da rimuovere la height */
+    height: 500px;
+    width: 20%;
+    margin: 0% 0.5% 2% 0.5%;
+}
+.float-middle{
+    width: 58%;
+}
+.main-div div:first-child{
+    margin-left: 0%;
+}
+.main-div div:last-child{
+    margin-right: 0%;
+}    
+footer{
+    background-color: #8801fe;
+    /* Da rimuovere la height */
+    height: 50px;
+    margin-top: 0.5%;
 }
